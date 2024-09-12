@@ -41,10 +41,10 @@ public class Ruin {
 			}
 			String eod;
 			if (curr == 0) {
-				eod = "Lose";
+				eod = " Lose";
 			
 			}else {
-				eod = "Win";
+				eod = " Win";
 			}
 			System.out.println("Stimulation: "+ (i+1)+ eod);
 		}
